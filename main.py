@@ -27,7 +27,7 @@ mycursor = db.cursor()
 
 
 # Google Vision API connection using KEY
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"true-campus-328213-d88dd1ec2de1.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"key.json"
 client = vision_v1.ImageAnnotatorClient()
 
 # Picking image
